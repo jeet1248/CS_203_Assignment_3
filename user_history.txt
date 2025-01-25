@@ -1,0 +1,17 @@
+1 history
+2 sudo apt list | grep -i python3.10
+3 wget https://www.python.org/ftp/python/3.10.0/Python-3.10.0.tgz
+4 tar -xvf Python-3.10.0.tgz
+5 cd Python-3.10.0
+6 ./configure --enable-optimizations
+7*
+8 make
+9 ls -1
+10 ./python -m venv labelstudio_env
+11 source labelstudio_env/bin/activate
+12 pip install label-studio
+13 label-studio
+14 pip -V
+15 pip install --upgrade pip
+16 label-studio
+17 history > user_history.txt
