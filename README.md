@@ -1,4 +1,4 @@
-# CS_203_Assignment_3
+# CS 203 Assignment-3
 
 **Team Members:**  
 - Jeet Joshi (23110148)
@@ -44,8 +44,8 @@
   We annotated the Computer Vision (CV) dataset with labels indicating whether or not the images contained trucks (Truck, No Truck).
 
 #### Annotation Process:
-- Each of the member annotated 20 data points from POS and CV datasets and thus 40 data points in total.
-- For CV dataset, we also took help from Team 4 member Anuj Joshi (23110033) for labeling 20 data points thus 60 data points for CV     labeling task.
+- Each member annotated 20 data points from POS and CV datasets, and thus, in total, 40 data points.
+- For the CV dataset, we also took help from Team 4 member Anuj Joshi (23110033) for labelling 20 data points, thus 60 data points for the CV labelling task.
 
 ---
 
@@ -54,18 +54,18 @@
 #### Cohen's Kappa (NLP Dataset):  
 We used Cohen's Kappa to measure the agreement between the two annotators on the NLP dataset.
 
-- **Cohen's Kappa Score for NLP Dataset:** 0.784
+- **Cohen's Kappa Score for NLP Dataset:** **0.784**
 
 **Interpretation:**  
-A Kappa score of 0.784 indicates good agreement between the two annotators on the NLP task, which is a positive indicator of reasonable consistency in the POS tagging annotations.
+A Kappa score of **0.784** indicates good agreement between the two annotators on the NLP task, which is a positive indicator of reasonable consistency in the POS tagging annotations.
 
 #### Fleiss' Kappa (CV Dataset):  
 For the CV dataset, we used Fleiss' Kappa, which is used to calculate agreement among three or more annotators. We used the annotations from our team as well as a third set of annotations from a different team member.
 
-- **Fleiss' Kappa Score for CV Dataset:** 1
+- **Fleiss' Kappa Score for CV Dataset:** **1**
 
 **Interpretation:**  
-A Kappa score of 1 represents perfect agreement among the annotators, suggesting that the annotators were fully in accordance in labeling the images of containing trucks or not.
+A Kappa score of **1** represents perfect agreement among the annotators, suggesting that the annotators were fully in accordance in labeling the images of containing trucks or not.
 
 ---
 
@@ -78,7 +78,7 @@ A Kappa score of 1 represents perfect agreement among the annotators, suggesting
 ### Instructions for Running the Code:
 
 1. **Clone the repository:**
-   Clone the repository to your local machine using your GitHub account URL.
+   Clone the repository to your local machine using the GitHub account URL `https://github.com/jeet1248/CS_203_Assignment_3.git`.
 
 2. **Install dependencies as needed:**
    Navigate to the cloned directory and install the required dependencies (such as `sklearn`, `json`, etc.).
