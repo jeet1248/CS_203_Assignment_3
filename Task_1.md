@@ -114,6 +114,10 @@
 
 ---
 
+If pip is not there, it can be done with `./python -m ensurepip --upgrade`, and if an OpenSSL error occurs, then it can be resolved by installing it using tarball like Python 3.10.0 was installed using `wget https://www.openssl.org/source/openssl-1.1.1w.tgz` and `tar -xvf openssl-1.1.1w.tgz` and compiling it using `make` command and configuring it in the Python-3.10.0 directory.
+
+---
+
 ## 11. Creating Virtual Environment
 ### Before:
 ![Before Screenshot](Screenshots/22.png)
@@ -133,6 +137,11 @@
 ### After:
 ![After Screenshot](Screenshots/25.png)
 - Shows the terminal after activating the virtual environment.
+
+---
+
+If an SQLite error occurs, it can be resolved with `wget https://www.sqlite.org/2024/sqlite-autoconf-3450000.tgz`, then `tar -xvf sqlite-autoconf-3450000.tgz`
+and then compiling using `make` and configuring it in the Python-3.10.0 directory, then running the whole thing after it again.
 
 ---
 
