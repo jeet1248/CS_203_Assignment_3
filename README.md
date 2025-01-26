@@ -46,6 +46,7 @@
   We annotated the Computer Vision (CV) dataset with labels indicating whether or not the images contained trucks (Truck, No Truck).
 
 #### Annotation Process:
+- We annotated the NLP Dataset from index 142 to 161 of the CSV file, i.e., the thirteenth 20 sentences set; for the CV dataset, we annotated images numbered 140 to 159, i.e. the thirteenth 20 images set. 
 - Each member annotated 20 data points from POS and CV datasets, and thus, in total, 40 data points.
 - For the CV dataset, we also received help from Team 4 member Anuj Joshi (23110033) to label 20 data points, thus adding to 60 for the CV labelling task.
 
