@@ -11,7 +11,7 @@
 #### Steps Taken:
 
 1. **Clearing Terminal History:**  
-   We used a command to clear the terminal history ensuring there is no record of previous commands.
+   We used a command to clear the terminal history, ensuring no record of previous commands.
 
 2. **Checking Python Installation:**  
    We verified if Python 3.10 was installed on our system
@@ -45,11 +45,14 @@
 
 #### Annotation Process:
 - Each member annotated 20 data points from POS and CV datasets, and thus, in total, 40 data points.
-- For the CV dataset, we also took help from Team 4 member Anuj Joshi (23110033) for labelling 20 data points, thus 60 data points for the CV labelling task.
+- For the CV dataset, we also received help from Team 4 member Anuj Joshi (23110033) to label 20 data points, thus adding to 60 for the CV labelling task.
 
 ---
 
 ### Task 3: Inter-Annotator Agreement (IAA) Calculation
+
+#### Data Export:
+We exported the labelled data for both datasets in JSON format so that the kappas could be calculated.
 
 #### Cohen's Kappa (NLP Dataset):  
 We used Cohen's Kappa to measure the agreement between the two annotators on the NLP dataset.
@@ -57,15 +60,15 @@ We used Cohen's Kappa to measure the agreement between the two annotators on the
 - **Cohen's Kappa Score for NLP Dataset:** **0.784**
 
 **Interpretation:**  
-A Kappa score of **0.784** indicates good agreement between the two annotators on the NLP task, which is a positive indicator of reasonable consistency in the POS tagging annotations.
+A Kappa score of **0.784** indicates good agreement between the two annotators on the NLP task, a positive indicator of reasonable consistency in the POS tagging annotations.
 
 #### Fleiss' Kappa (CV Dataset):  
-For the CV dataset, we used Fleiss' Kappa, which is used to calculate agreement among three or more annotators. We used the annotations from our team as well as a third set of annotations from a different team member.
+For the CV dataset, we used Fleiss' Kappa, which is used to calculate agreement among three or more annotators. We used the annotations from our team and a third set of annotations from a different team member.
 
 - **Fleiss' Kappa Score for CV Dataset:** **1**
 
 **Interpretation:**  
-A Kappa score of **1** represents perfect agreement among the annotators, suggesting that the annotators were fully in accordance in labeling the images of containing trucks or not.
+A Kappa score of **1** represents a perfect agreement among the annotators, suggesting that the annotators were entirely in accordance in labelling the images of containing trucks.
 
 ---
 
@@ -81,11 +84,11 @@ A Kappa score of **1** represents perfect agreement among the annotators, sugges
    Clone the repository to your local machine using the GitHub account URL `https://github.com/jeet1248/CS_203_Assignment_3.git`.
 
 2. **Install dependencies as needed:**
-   Navigate to the cloned directory and install the required dependencies (such as `sklearn`, `json`, etc.).
+   Navigate to the cloned directory and install the required dependencies (such as ' sklearn`, `json`, etc.).
 
 3. **Run the Code:**
-   To calculate Cohen's Kappa and Fleiss' Kappa, execute the appropriate Python scripts.
+   Execute the appropriate Python scripts to calculate Cohen's Kappa and Fleiss' Kappa.
    
 4. **View the Results:**
-   After running the scripts, check the terminal for the output of Cohen's Kappa and Fleiss' Kappa.
+   After running the scripts, check the terminal for Cohen's Kappa and Fleiss' Kappa output.
 
