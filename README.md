@@ -1,5 +1,7 @@
 # CS 203 Assignment-3
 
+**Team Number:** 13
+  
 **Team Members:**  
 - Jeet Joshi (23110148)
 - Kain Harshil Shivkumar (23110151) 
@@ -33,7 +35,7 @@
 
 ---
 
-### Task 2: Annotating a Dataset Using Label Studio
+### Task 2: Annotating Datasets Using Label Studio
 
 #### Datasets Annotated:
 
@@ -51,7 +53,7 @@
 
 ### Task 3: Inter-Annotator Agreement (IAA) Calculation
 
-#### Data Export:
+#### Labeled Data Export:
 We exported the labelled data for both datasets in JSON format so that the kappas could be calculated.
 
 #### Cohen's Kappa (NLP Dataset):  
