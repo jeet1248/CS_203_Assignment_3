@@ -60,7 +60,7 @@ We used Cohen's Kappa to measure the agreement between the two annotators on the
 - **Cohen's Kappa Score for NLP Dataset:** **0.784**
 
 **Interpretation:**  
-A Kappa score of **0.784** indicates good agreement between the two annotators on the NLP task, a positive indicator of reasonable consistency in the POS tagging annotations.
+A Kappa score of **0.784** indicates good agreement between the two annotators on the NLP task, a positive indicator of reasonable consistency in the POS tagging annotations. The disagreement could be due to bias, basic human mistakes or interpretation errors, and ambiguity in understanding.
 
 #### Fleiss' Kappa (CV Dataset):  
 For the CV dataset, we used Fleiss' Kappa, which is used to calculate agreement among three or more annotators. We used the annotations from our team and a third set of annotations from a different team member.
@@ -68,7 +68,7 @@ For the CV dataset, we used Fleiss' Kappa, which is used to calculate agreement 
 - **Fleiss' Kappa Score for CV Dataset:** **1**
 
 **Interpretation:**  
-A Kappa score of **1** represents a perfect agreement among the annotators, suggesting that the annotators were entirely in accordance in labelling the images of containing trucks.
+A Kappa score of **1** represents a perfect agreement among the annotators, suggesting that the annotators were entirely in accordance in labelling the images of containing trucks. It could be because the identification of trucks was way too easy due to various zoom features in the label studio itself, and there was no ambiguity.
 
 ---
 
@@ -84,10 +84,10 @@ A Kappa score of **1** represents a perfect agreement among the annotators, sugg
    Clone the repository to your local machine using the GitHub account URL `https://github.com/jeet1248/CS_203_Assignment_3.git`.
 
 2. **Install dependencies as needed:**
-   Navigate to the cloned directory and install the required dependencies (such as ' sklearn`, `json`, etc.).
+   Navigate to the cloned directory and install the required dependencies (such as `sklearn`, `json`, etc.).
 
 3. **Run the Code:**
-   Execute the appropriate Python scripts to calculate Cohen's Kappa and Fleiss' Kappa.
+   Execute the appropriate Python scripts to calculate Cohen's and Fleiss' Kappa.
    
 4. **View the Results:**
    After running the scripts, check the terminal for Cohen's Kappa and Fleiss' Kappa output.
